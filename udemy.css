@@ -1,0 +1,1404 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+}
+/*  1.HOME-Top */
+
+.home .container-top{
+    padding:10px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    box-shadow: 1px 0px 5px 1px rgba(120,120,120,1); 
+
+}
+.home .container-top .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:28px;
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    margin-right: 10px;
+}
+.home .container-top .search{
+    margin-right: 10px;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    padding-left:15px;
+    gap: 10px;
+}
+.home .container-top .search .explore{
+    font-size: 14px;
+}
+.home .container-top .search .search-container{
+    display: flex;
+    gap: 13px;
+    border: 1px solid rgb(109, 109, 109);
+    padding: 14px 10px;
+    border-radius: 30px;
+    width:90%;
+}
+.home .container-top .search .search-container input{
+    outline: none;
+    border: none;
+}
+.home .container-top .description{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.home .container-top .icons_btns{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+}
+.home .container-top .icons_btns .wbtn{
+    background-color: aliceblue;
+    color: blueviolet;
+    padding: 10px 17px;
+    outline: none;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.home .container-top .icons_btns .bbtn{
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    outline: none;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.home .container-top .icons_btns .globe{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px 9px;
+}
+
+/*  2. Home-Bottom */
+
+.home .container-bottom{
+    width: 100vw;
+    
+}
+.home .container-bottom .img{
+    display: flex;
+    justify-content: center;
+}
+.home .container-bottom .img .pic{
+    display: flex;
+    width: 90%;
+    position: relative;
+}
+.home .container-bottom .img .over-img{
+    position: absolute;
+    top: 18%;
+    left:10%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 67, 67);
+    width: 400px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 17px;
+    box-shadow: 1px 2px 5px 0px rgba(120,120,120,1);
+}
+.home .container-bottom .img .over-img h1,.des{
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+}
+.home .container-bottom .img .over-img p,.desp{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+.home .container-bottom .dess{
+    box-sizing: border-box;
+    color: rgb(68, 67, 67);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 70px 0px 70px 80px;
+}
+.home .top-variety{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    color: rgb(80, 80, 80);
+    display: flex;
+    margin: auto;
+    width: 87%;
+    gap: 20px;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+}
+.line{
+    width: 87vw;
+    margin: auto;
+    border-bottom: 2px solid rgb(55, 55, 55);
+}
+/*  Menu varieties */
+.menu-btns{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 87%;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom:35px;
+}
+.menu-btns button{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    padding:18px;
+    background-color:rgb(187, 187, 187);
+    color: rgb(47, 47, 47);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+/*  slider */
+
+.full-containers{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+}
+.full-containers2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+}
+.b1container{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+}
+.b1container2{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+}
+.b2container{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+    display: none;
+}
+.b3container{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+    display: none;
+}
+.b4container{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+    display: none;
+}
+.b5container{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+    display: none;
+}
+.b6container{
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    gap: 25px;
+    width: 85%;
+    display: none;
+}
+.b1container::-webkit-scrollbar{
+    visibility: hidden;
+}
+.b1container2::-webkit-scrollbar{
+    visibility: hidden;
+}
+.b2container::-webkit-scrollbar{
+    visibility: hidden;
+}
+.b3container::-webkit-scrollbar{
+    visibility: hidden;
+}
+.b4container::-webkit-scrollbar{
+    visibility: hidden;
+}
+.b5container::-webkit-scrollbar{
+    visibility: hidden;
+}
+.b6container::-webkit-scrollbar{
+    visibility: hidden;
+}
+.card{
+    box-sizing: border-box;
+    white-space: nowrap;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 13px;
+    width: 300px;
+    height: 350px;
+}
+.card2{
+    box-sizing: border-box;
+    white-space: nowrap;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 13px;
+    width: 300px;
+    height: 350px;
+}
+.full-containers .b1container .card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers2 .b1container2 .card2 img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers .b2container .card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers .b3container .card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers .b4container .card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers .b5container .card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers .b6container .card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width: 300px;
+    height: 50%;
+}
+.full-containers .b1container .card .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers2 .b1container2 .card2 .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers .b2container .card .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers .b3container .card .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers .b4container .card .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers .b5container .card .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers .b6container .card .h{
+    width: 80%;
+    padding:8px 12px;
+    color: rgb(71, 70, 70);
+    
+}
+.full-containers .b1container .card .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers2 .b1container2 .card2 .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers .b2container .card .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers .b3container .card .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers .b4container .card .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers .b5container .card .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers .b6container .card .h h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.full-containers .b1container .card .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers2 .b1container2 .card2 .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers .b2container .card .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers .b3container .card .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers .b4container .card .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers .b5container .card .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers .b6container .card .h .did{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.full-containers .b1container .card .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+.full-containers2 .b1container2 .card2 .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+.full-containers .b2container .card .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+.full-containers .b3container .card .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+.full-containers .b4container .card .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+.full-containers .b5container .card .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+.full-containers .b6container .card .h .rating{
+    display: flex;
+    gap: 10px;
+    font-size:12px;
+    padding-bottom: 5px;
+}
+
+.btnss{
+    padding-top: 5px;
+    display: flex;
+    gap: 20px;
+}
+.premium{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 150);
+    outline: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    width: 70px;
+}
+.premium button{
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 150);
+    color: aliceblue;
+}
+.seller{
+    background-color: rgb(196, 226, 253);
+    padding: 4px 15px;
+    border: none;
+}
+
+/* lrswiper */
+
+.lrswiper{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+}
+.lrswiper .lswiper{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 1px 0px 5px 1px rgba(120,120,120,1); 
+
+}
+.lrswiper .rswiper{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 1px 0px 5px 1px rgba(120,120,120,1); 
+
+}
+
+
+.lrswiper2{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 80px;
+    top: 1750px;
+}
+.lrswiper2 .lswiper2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 1px 0px 5px 1px rgba(120,120,120,1); 
+
+}
+.lrswiper2 .rswiper2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 1px 0px 5px 1px rgba(120,120,120,1); 
+
+}
+
+
+.btn-bellow{
+    width:85vw;
+    display: flex;
+    margin: auto;
+}
+.btn-bellow button{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-top: 30px;
+    background: rgb(218, 218, 247);
+    padding: 12px 20px;
+    color: rgb(19, 19, 161);
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 82) ;
+} 
+
+/* logoss */
+.logoss{
+    width:100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoss .logtop{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    padding-bottom: 18px;
+}
+.logoss .log .loglogo{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.full-containers-top{
+    width:85%;
+    font-size:33px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-weight: 600;
+    color: rgb(42, 42, 42);
+    margin: auto;
+    margin-bottom: 23px;
+}
+
+
+
+/*  Machine workss */
+.machine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(242, 240, 240);
+}
+.machine .machine-title{
+    padding-top: 60px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.machine .title{
+    font-size:28px;
+    font-weight: 550;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(60, 60, 60);
+}
+.machine-parts{
+    padding: 50px 0px;
+    display: flex;
+    gap: 30px;
+}
+.machine-parts .partone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    width: 50%;
+}
+.machine-parts .partone .pone{
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 197, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 20px;
+    width: 530px;
+    height:130px;
+    box-sizing: border-box;
+}
+.machine-parts .partone .pone .poneimg img{
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.machine-parts .parttwo{
+    width: 50%;
+}
+.ponecontent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.ponecontent .ponecA{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 750;
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+}
+.ponecontent .ponecA button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blueviolet;
+    background:rgb(245, 246, 252);
+    color: blueviolet;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-weight: 700;
+}
+.ponecontent .ponecB{
+    color: rgb(85, 85, 85);
+}
+.ponecontentbtn1{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent;
+    border: none;
+    color: blueviolet;
+    font-weight: 750;
+    font-size: 17px;
+}
+.parttwo {
+    width: 567px;
+    height: 600px;
+}
+.parttwo .pageone .pagetwo,.pagethree,.pagefour{
+    width: 100%;
+    height: 100%;
+}
+
+.parttwo .pagetwo,.pagethree,.pagefour{
+    display: none;
+}
+.pageone img{
+    width: 567px;
+    height: 600px;
+}
+.pagetwo img{
+    width: 567px;
+    height: 600px;
+}
+.pagethree img{
+    width: 567px;
+    height: 600px;
+}
+.pagefour img{
+    width: 567px;
+    height: 600px;
+}
+
+/* 3boxess */
+
+.box{
+    width: 100%;
+    height: 700.98px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxtopper{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.boxtopper .tone{
+    width: 1088px;
+   font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   font-weight: 700;
+   color: rgb(48, 49, 65);
+   font-size: 32px;
+   line-height: 40px;
+}
+.boxtopper .two{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(89, 92, 115);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.boxboxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    width: 85%;
+    margin: auto;
+}
+.boxboxes .topC{
+    display: flex;
+    gap: 10px;
+
+}
+.boxboxes ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+.boxboxes ul li{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgb(48, 49, 65);
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.boxboxes ul li i{
+    color: rgb(0, 116, 0);
+}
+.boxboxes .boxj,.boxk,.boxq{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid rgb(218, 194, 240);
+    border-top:10px solid blueviolet;
+    border-radius: 10px;
+    padding: 30px;
+}
+.innerboxtopper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.boxboxes .topA{
+    font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    font-size:18px;
+    color: 
+    rgb(48, 49, 65);
+    font-style: normal;
+    line-height:24px;
+}
+.boxboxes .topB{
+    font-family:"Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:12px;
+    font-weight:400;
+    line-height: 17px;
+    color:
+    rgb(48, 49, 65) ;
+}
+.boxboxes .topC{
+    display: flex;
+    align-items: center;
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(89, 92, 115);
+    font-size:14px;
+    font-weight:400;
+    font-style:normal ;
+    line-height:20px;
+}
+.rowone{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: rgb(48, 49, 65);
+    line-height: 22px;
+    font-weight: 700;
+}
+.rowtwo{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight:400;
+    line-height: 17px;
+    color: rgb(89, 92, 115);
+    margin-bottom: 12px;
+}
+.rowthree{
+    font-family: "Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    gap: 10px;
+    font-style: normal;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.reviews{
+    box-sizing: border-box;
+    margin-top: 65px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    padding: 50px 110px;
+    gap: 40px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 200px;
+    grid-template-areas: 
+    'revtop revtop revtop revtop'
+    'revone revtwo revthree revfour';
+}
+.reviews img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+}
+.revtooper{
+    color: rgb(48, 49, 65);
+    font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    font-size:32px;
+    line-height:45px;
+    font-style:normal;
+    grid-area: revtop;
+    display: flex;
+    
+}
+.revone{
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 6px;
+    grid-area: revone;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    overflow: hidden;
+
+}
+.revtwo{
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 6px;
+    grid-area: revtwo;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    overflow: hidden;
+
+
+}
+.revthree{
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 209, 209);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 6px;
+    grid-area: revthree;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    overflow: hidden;
+
+
+}
+.revfour{
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 6px;
+    grid-area: revfour;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    overflow: hidden;
+
+
+}
+.qoate{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: rgb(48, 49, 65);
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.picrev{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.names p:first-child{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(89, 92, 115);
+    font-size:12px;
+    font-style:normal;
+    font-weight:400;
+    line-height: 17px;
+}
+.names p:last-child{
+    font-family:"Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+    font-size:12px ;
+    font-weight:400;
+    line-height:17px;
+    font-style:normal;
+    color:rgb(145, 148, 172) ;
+}
+.btns button{
+    background: transparent;
+    color: blueviolet;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.posterpage{
+    width:85%;
+    display: grid;
+    padding: 0px 100px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    'lpage rpage';
+}
+.leftpg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    grid-area: lpage;
+}
+.rightpage{
+    grid-area: rpage;
+}
+.rightpage img{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+}
+.topl{
+    font-family:SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:34px;
+    font-weight:700 ;
+    color:rgb(48, 49, 65);
+    font-style:normal;
+    line-height: 40px;
+}
+.topo{
+    font-family:"Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:18px;
+    font-weight:400 ;
+    color:rgb(48, 49, 65);
+    font-style:normal;
+    line-height: 25px;
+}
+.topv button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 17px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+}
+.topv button .p{
+    font-weight: 750;
+}
+/*  Trend  */
+
+.container-trend {
+    background-color: rgb(250, 250, 250);
+    width: 85%;
+    height: 450px; 
+    padding: 0px 110px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1.5fr 1fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 
+        "head head head head"
+        "one two three four";
+    justify-content: center;
+}
+
+#head {
+    padding-top: 70px;
+    font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 32px;
+    font-style: normal;
+    line-height: 40px;
+    color: rgb(48, 49, 65);
+    font-weight: 700;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 10px;
+    grid-area: head;
+}
+#one button{
+    background: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+#one {
+    display: flex;
+    row-gap: 25px;
+    padding-right: 30px;
+    flex-direction: column;
+    font-family: "Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 32px;
+    color: rgb(48, 49, 65);
+    font-weight: 700;
+    box-sizing: border-box;
+    line-height: 38px;
+    grid-area: one;
+}
+.itemsMaster .two .in{
+    display: flex;
+    align-items: center;
+    font-family: "Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color:rgb(99, 54, 212);
+    line-height: 22px;
+    font-size: 18px;
+}
+.itemsMaster .two .on{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(145, 148, 172);
+    line-height: 20px;
+}
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+.itemsone .one{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(48, 49, 65);
+    font-size: 24px;
+    font-weight:700;
+    line-height:34px;
+}
+.itemsone{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.itemsone .two .in{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:18px;
+    font-weight:700;
+    color: rgb(80, 34, 195);
+    line-height:25px;
+}
+.itemsone .two,.three,.four .on{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height:20px;
+    font-weight:400;
+    color: rgb(145, 148, 172);
+
+}
+.itemsone .three .in{
+font-family:"Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size:18px ;
+color:rgb(80, 34, 195) ;
+font-weight:700;
+line-height: 25px
+}
+
+
+/*  Footer */
+.footer{
+    max-width: 1519px;
+    height: 916px;
+}
+.topper{
+    border-bottom: 1px solid white;
+    padding: 5px 50px;
+    align-items: center;
+    height: 91px;
+    background-color: #1a1a22;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.topper .destop{
+    font-family: "Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:18px;
+    font-weight:700;
+    line-height:22px;
+}
+.topper .logo{
+    display: flex;
+    gap: 20px;
+}
+.dooper{
+    color: rgb(255, 255, 255);
+    background-color: #1a1a22;
+    padding: 5px 50px;
+    height: 523px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr ;
+    grid-template-areas: 
+    'head head head head '
+    'one two three four'
+    'five six seven eight';
+}
+.head{
+    display: flex;
+    align-items: center;
+    grid-area: head;
+    font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:18px;
+    line-height:24px;
+    font-weight:700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+
+.one, .two, .three, .four, .five, .six, .seven ul li {
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+
+.one p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.two p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.three p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.four p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.five p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.six p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.seven p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+.eight p{
+    font-family:"Udemy Sans", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:16px;
+    font-weight:700;
+    line-height:19px;
+    margin-bottom: 10px;
+}
+
+.superduper{
+    padding: 5px 50px;
+    background-color: #0e0e0e;
+    color: aliceblue;
+    height: 219px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    'one two three four';
+   border-bottom: 1px solid white;
+}
+.superduper ul li{
+    font-weight: 350;
+    padding-bottom: px
+}
+.superduper #kellu{
+    grid-area: one;
+}
+.superduper #two{
+    grid-area: two;
+}
+.superduper #three{
+    grid-area: three;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.superduper #four{
+    grid-area: four;
+}
+.superhitdooper{
+    font-family: "Udemy Sans", "SF Pro Text", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 22px;
+    height: 83px;
+    color: white;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+.superhitdooper img{
+    width: 98px;
+    height: 38px;
+}
+
+
+
